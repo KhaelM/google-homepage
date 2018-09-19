@@ -1,0 +1,75 @@
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 6px 0;
+    float: right;
+}
+li > a {
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.87);
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    display: inline-block;
+    margin-right: 10px;
+}
+nav > ul > li {
+    display: inline;
+}
+ul > li:last-child {
+    margin-right: 10px;
+}
+.icon-square {
+    width: 20px;
+    vertical-align: middle;
+    background-image: url("../image/iconList.png");
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    opacity: .55;
+    padding: 15px 5px;
+}
+.icon-square:hover {
+    opacity: .85;
+}
+.icon-bell {
+    width: 20px;
+    height: 20px;
+    background-image: url("../image/iconList.png");
+    background-position: -194px -21px;
+    background-size: 528px 68px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.rounded {
+    vertical-align: middle;
+    background-color: rgba(0,0,0,.55);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin-right: 20px;
+}
+.rounded:hover {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+.userPic {
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    vertical-align: middle;
+    background-image: url("../image/userPic.jpg");
+    border-radius: 50%;
+    background-size: 32px 32px;
+}
+nav > ul > li > a > span:hover {
+    text-decoration: underline;
+}
+main {
+    clear: both;
+    text-align: center;
+}
+#googleLogo {
+    width: 272px;
+    height: 92px;
+    padding-top: 109px;
+}
